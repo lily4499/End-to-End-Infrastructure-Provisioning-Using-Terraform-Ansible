@@ -1,6 +1,4 @@
-# End-to-End-Infrastructure-Provisioning-Using-Terraform-Ansible
 
----
 
 # 📦 End-to-End Infrastructure Provisioning Using Terraform & Ansible
 
