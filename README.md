@@ -375,9 +375,9 @@ Vault (Secrets Management)
 ## 📝 Prerequisites
 
 - AWS Account with permissions (EC2, VPC, EKS, IAM)
-- Terraform installed (`>= 1.0.0`)
-- Ansible installed
-- Vault installed
+- Terraform Local installed (`>= 1.0.0`)
+- Ansible Local installed to configure the Bastion and EKS nodes.
+- Vault installed on Bastion EC2:
 ```bash
 # Ubuntu/Debian
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
@@ -386,7 +386,7 @@ sudo apt update && sudo apt install vault
 vault --version
 
 ```
-- Git installed
+- Git Local installed
 - SSH Key pair (for EC2 access)
 
 ---
